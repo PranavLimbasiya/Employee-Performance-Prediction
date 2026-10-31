@@ -25,7 +25,6 @@ Place the following files in the same folder as the notebook:
 
 The notebook describes 2,000 training rows and 500 test rows. Confirm that your local CSV files match these details before publishing.
 
-> **Dataset note:** Only upload the CSV files if you have permission to share them publicly. Do not publish confidential, personal, or restricted employee information. If the dataset cannot be shared, omit the CSV files and explain in this README how an authorized user can obtain them.
 
 ## Technologies and Libraries
 
