@@ -52,45 +52,6 @@ The notebook describes 2,000 training rows and 500 test rows. Confirm that your 
 9. Train models using the full training data and average predictions across five random seeds.
 10. Generate and validate `submission.csv`.
 
-## How to Run
-
-### 1. Clone or download this repository
-
-```bash
-git clone YOUR_REPOSITORY_URL
-cd Employee-Performance-Prediction
-```
-
-Replace `YOUR_REPOSITORY_URL` with your GitHub repository URL.
-
-### 2. Install dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-### 3. Add the dataset files
-
-Place `perf_train.csv`, `perf_test.csv` and `sample_submission.csv` in the project folder, next to `Pranav_Hackathon.ipynb`.
-
-### 4. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open `Pranav_Hackathon.ipynb` and run the cells from top to bottom.
-
-### 5. Find the output
-
-After the notebook completes successfully, it creates:
-
-```text
-submission.csv
-```
-
-The output contains `Employee_ID` and `Performance_Category` for each test record.
-
 ## Model Evaluation
 
 The notebook uses:
